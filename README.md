@@ -35,3 +35,5 @@ Design Summary
 - Natural-language parsing: Regex-based templates convert supported sentence structures into symbolic representations. No machine-learning model or LLM is used.
 - Reasoning: Unification and forward chaining derive facts. A blocked-fact mechanism supports the implemented counterfactual reasoning cases.
 - Generalisation: The system uses symbolic parsing and reasoning rather than memorised dataset IDs or answers. Its performance on unseen inputs depends on the sentence structures and logical patterns supported by the implementation.
+
+Note: Only the last cell of the file "reasoning_agent_v2.ipynb" with respect to "reasoning_agent.ipynb"
